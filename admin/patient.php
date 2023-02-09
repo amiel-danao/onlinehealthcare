@@ -82,7 +82,7 @@
 				<form id = "form_dental" method = "POST" enctype = "multipart/form-data">
 					<div style = "float:left;" class = "form-inline">
 						<label for = "itr_no">ITR No:</label>
-						<input class="form-control validated" size="3" min="0" type="text" name="itr_no" maxlength="4" pattern="^\d{1,4}$" required>
+						<input class="form-control" size="12" min="0" type="text" name="itr_no" maxlength="12" required>
 					</div>
 					<div style = "float:right;" class = "form-inline">
 						<label for = "family_no">Family no:</label>
